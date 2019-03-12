@@ -1,0 +1,20 @@
+{
+  "name": "gpio_api",
+  "version": "1.0.0",
+  "description": "```{bash} curl -v \"beaglebone.local:3001/USR0?state=0\" curl -v \"beaglebone.local:3001/USR1?state=0\" ```",
+  "main": "webapi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node webapi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavamo135/gpio_api.git"
+  },
+  "author": "Maximiliano Valencia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mavamo135/gpio_api/issues"
+  },
+  "homepage": "https://github.com/mavamo135/gpio_api#readme"
+}
